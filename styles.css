@@ -1,0 +1,26 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 252, 249, 1);
+
+  background-image: var(--background);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
