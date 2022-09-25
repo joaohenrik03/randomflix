@@ -1,7 +1,7 @@
 const API_KEY = 'api_key=04febd9b1a0791554ad97c1ed63e92ae';
 
 function handleSearchMovie() {
-  fetch(`https://api.themoviedb.org/3/movie/${Math.floor(Math.random() * 100)}?${API_KEY}`)
+  fetch(`https://api.themoviedb.org/3/movie/${Math.floor(Math.random() * 100)}?${API_KEY}&language=pt-BR`)
   .then(response => {
     if (response.ok) {
       response.json().then(data => {
