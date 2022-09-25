@@ -73,6 +73,11 @@ main section div {
   max-width: 42rem;
 }
 
+main section div.time-to-code {
+  display: grid;
+  place-items: center;
+}
+
 main section h2 {
   color: var(--title);
   font-size: 2rem;
